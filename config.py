@@ -9,6 +9,7 @@ class Config:
     
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
+    POSTS_PER_PAGE = 3
 
     # email setting
     MAIL_SERVER = os.environ.get('MAIL_SERVER')
